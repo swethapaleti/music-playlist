@@ -1,0 +1,53 @@
+.list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.image {
+  width: 140px;
+  height: 90px;
+}
+
+.text-container {
+  display: flex;
+  justify-content: space-between;
+}
+.text {
+  align-self: center;
+  padding: 20px;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  justify-self: flex-end;
+}
+
+.time-btn {
+  display: flex;
+  align-items: center;
+}
+
+.time {
+  margin-right: 25px;
+  font-size: 19px;
+}
+
+.btn-container {
+  margin-right: 25px;
+}
+
+.name {
+  font-size: 22px;
+}
+
+.genre {
+  color: #3b82f6;
+  margin-top: 10px;
+}
+
+.del-logo {
+  font-size: 17px;
+}
